@@ -1,0 +1,45 @@
+.allproducts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    /* background-color: red; */
+    margin: 0;
+}
+
+.allproducts h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: var(--col1);
+    font-style: italic;
+}
+
+
+.allproducts .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+@media (max-width: 950px)
+{
+    .allproducts{
+        width: 60%;
+    }
+    
+}
+
+
+
+@media (max-width: 650px)
+{
+    .allproducts{
+        width: 100%;
+    }
+    
+    
+}
